@@ -3,7 +3,7 @@ gu-to-censored
 
 Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' with 'my butt', this time with the replacement of 'gu' -> 'censored' for use by the Flex Fox Fantasy Federation.
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+[Direct download of crx file](https://github.com/akosasante/gu-to-censored/blob/master/Chrome/GuToCensored.crx?raw=true)
 
 Installation
 ------------
