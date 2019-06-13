@@ -2,20 +2,20 @@ const sourceReplacementPairs = [
 	[/\bgu\b/gi,"CENSORED BY FLEX FOX"]
 ];
 
-function debounce(func, wait, immediate) {
-	let timeout;
-	return function() {
-		const context = this, args = arguments;
-		const later = function() {
-			timeout = null;
-			if (!immediate) func.apply(context, args);
-		};
-		const callNow = immediate && !timeout;
-		clearTimeout(timeout);
-		timeout = setTimeout(later, wait);
-		if (callNow) func.apply(context, args);
-	};
-}
+// function debounce(func, wait, immediate) {
+// 	let timeout;
+// 	return function() {
+// 		const context = this, args = arguments;
+// 		const later = function() {
+// 			timeout = null;
+// 			if (!immediate) func.apply(context, args);
+// 		};
+// 		const callNow = immediate && !timeout;
+// 		clearTimeout(timeout);
+// 		timeout = setTimeout(later, wait);
+// 		if (callNow) func.apply(context, args);
+// 	};
+// }
 
 function throttle(func, wait, immediate) {
 	let timeout;
@@ -70,7 +70,7 @@ function walk(node, regexMatches) {
 
 		if (skipDueToClass(node)) {
 			console.log("%c skipping due to class type", 'background: #ffa500; color: #0a0');
-			console.log(node.classList);
+			// console.log(node.classList);
 			return;
 		}
 
@@ -78,8 +78,8 @@ function walk(node, regexMatches) {
 			case 1:  // Element
 			case 9:  // Document
 			case 11: {// Document fragment
-				console.log("%c walking some more", 'background: #222; color: #bada55');
-				console.log(node);
+				// console.log("%c walking some more", 'background: #222; color: #bada55');
+				// console.log(node);
 				child = node.firstChild;
 				while (child) {
 					next = child.nextSibling;
@@ -90,7 +90,7 @@ function walk(node, regexMatches) {
 			}
 
 			case 3: {// Text node
-				console.log("%c text node", 'background: #4444; color: #daba22');
+				// console.log("%c text node", 'background: #4444; color: #daba22');
 				const nodeValue = node.nodeValue.toLowerCase();
 				// if (node.nodeValue === "this is my butt" || node.nodeValue === "this is the cloud") {
 				// 	used for testing
@@ -150,11 +150,11 @@ if (window.MutationObserver) {
 	const observer = new MutationObserver(mutations => {
 		Array.prototype.forEach.call(mutations, function (m) {
 			if (m.type === 'childList') {
-				console.log("================== \n Child list");
-				console.log(m.target);
+				// console.log("================== \n Child list");
+				// console.log(m.target);
 				efficientWalk(m.target, sourceReplacementPairs);
 			} else if (m.target.nodeType === 3) {
-				console.log("%c text node from mutation", 'background: #4444; color: #daba22');
+				// console.log("%c text node from mutation", 'background: #4444; color: #daba22');
 				const nodeValue = m.target.nodeValue.toLowerCase();
 
 				if (nodeValue.includes("<script>") || nodeValue.includes("<style>")) {
@@ -167,7 +167,7 @@ if (window.MutationObserver) {
 
 				if (skipDueToClass(m.target)) {
 					console.log("%c skipping due to class type from mutation", 'background: #ffa500; color: #0a0');
-					console.log(m.target.classList);
+					// console.log(m.target.classList);
 					return;
 				}
 
