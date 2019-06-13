@@ -8,7 +8,7 @@ Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' wi
 Installation
 ------------
 
-In Chrome, choose Window > Extensions.  Drag Chrome/CloudToButt.crx into the page that appears.
+In Chrome, choose Window > Extensions.  Drag Chrome/GuToCensored.crx into the page that appears.
 
 Safari Version
 --------------
