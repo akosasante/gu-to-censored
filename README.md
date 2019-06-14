@@ -3,25 +3,29 @@ gu-to-censored
 
 Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' with 'my butt', this time with the replacement of 'gu' -> 'censored' for use by the Flex Fox Fantasy Federation.
 
-[Direct download of crx file](https://github.com/akosasante/gu-to-censored/blob/master/Chrome/GuToCensored.crx?raw=true)
-
-Installation
-------------
-
-In Chrome, choose Window > Extensions.  Drag Chrome/GuToCensored.crx into the page that appears.
-
-Safari Version
---------------
-
-Can be found here: https://github.com/logancollins/cloud-to-butt-safari
-
-Firefox Version
----------------
-
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-mozilla
+#Installation
 
 
-Opera Version
----------------
+##Chrome Version
+[Direct download of zip file of unpacked extension](https://github.com/akosasante/gu-to-censored/blob/master/Chrome/GuToCensored.zip?raw=true)
 
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-opera
+[Direct download of crx (Chrome packed extension) file](https://github.com/akosasante/gu-to-censored/blob/master/Chrome/GuToCensored.zip?raw=true)
+
+- Download the zip file, and extract the contents to the desired folder on your computer (the zip file contains the Source folder found [here](https://github.com/akosasante/gu-to-censored/blob/master/Chrome/Source))
+- In Chrome, navigate to `chrome://extensions/`
+- In the top left corner, enable the switch to "Developer Mode"
+- Click "Load unpacked" button on the left
+- In the file selector that pops up, select the "Source" folder that was unzipped in the first step
+
+##Safari Version
+
+~~Can be found here: https://github.com/logancollins/cloud-to-butt-safari~~
+
+##Firefox Version
+
+~~Can be found here: https://github.com/DaveRandom/cloud-to-butt-mozilla~~
+
+
+##Opera Version
+
+~~Can be found here: https://github.com/DaveRandom/cloud-to-butt-opera~~
