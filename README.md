@@ -17,22 +17,29 @@ Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' wi
 - Click "Load unpacked" button on the left
 - In the file selector that pops up, select the "Source" folder that was unzipped in the first step
 
-##Safari Version
-
-~~Can be found here: https://github.com/logancollins/cloud-to-butt-safari~~
-
 ##Firefox Version
 *Currently this requires using Firefox Developer Edition*
 
 [Direct download of zip file of unpacked extension](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/GuToCensored.zip?raw=true)
 
-[Direct download of crx (Firefox packed extension) file](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/GuToCensored.zip?raw=true)
+[Direct download of xip (Firefox packed extension) file](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/ffff_censorship-1.0-fx.xpi?raw=true)
 
+### Option 1
+- Download the .xip file
+- In Firefox, go to the menu bar, and click "My Add-Ons"
+- Click the gear next to "Manage My Extensions"
+- Click "Install Add-on from file" and select the .xip file
 
+###Option 2
 - Download the zip file, and extract the contents to the desired folder on your computer (the zip file contains the Source folder found [here](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/Source))
 - In Firefox, navigate to `about:debugging`, and go to "This Firefox" page using the navigation bar on the left
 - Click "Load Temporary Add-On"
 - Select the `manifest.json` file in the Source folder that was unzipped in the first step
+
+
+##Safari Version
+
+~~Can be found here: https://github.com/logancollins/cloud-to-butt-safari~~
 
 
 ##Opera Version
