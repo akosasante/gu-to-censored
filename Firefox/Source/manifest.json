@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "FFFF Censorship",
+	"version": "1.0",
+	"description": "Replaces the text 'gu' with 'censored'.",
+	"icons": { "16": "16.png",
+		"48": "48.png",
+		"128": "128.png" },
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "gutocensored@akosua.xyz"
+		}
+	},
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_idle"
+		}
+	]
+}
+

@@ -22,8 +22,11 @@ Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' wi
 ~~Can be found here: https://github.com/logancollins/cloud-to-butt-safari~~
 
 ##Firefox Version
-
-~~Can be found here: https://github.com/DaveRandom/cloud-to-butt-mozilla~~
+*Currently this requires using Firefox Developer Edition*
+- Download the zip file, and extract the contents to the desired folder on your computer (the zip file contains the Source folder found [here](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/Source))
+- In Firefox, navigate to `about:debugging`, and go to "This Firefox" page using the navigation bar on the left
+- Click "Load Temporary Add-On"
+- Select the `manifest.json` file in the Source folder that was unzipped in the first step
 
 
 ##Opera Version
