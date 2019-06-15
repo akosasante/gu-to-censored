@@ -23,6 +23,12 @@ Fork of the awesome Chrome extension that replaces occurrences of 'the cloud' wi
 
 ##Firefox Version
 *Currently this requires using Firefox Developer Edition*
+
+[Direct download of zip file of unpacked extension](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/GuToCensored.zip?raw=true)
+
+[Direct download of crx (Firefox packed extension) file](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/GuToCensored.zip?raw=true)
+
+
 - Download the zip file, and extract the contents to the desired folder on your computer (the zip file contains the Source folder found [here](https://github.com/akosasante/gu-to-censored/blob/master/Firefox/Source))
 - In Firefox, navigate to `about:debugging`, and go to "This Firefox" page using the navigation bar on the left
 - Click "Load Temporary Add-On"
